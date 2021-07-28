@@ -21,6 +21,7 @@ def bisezione(f, a, b, tol):
             b = f(x)
         if sign(f(x)) != sign(f(b)):
             a = f(x)
+	i = i + 1
     return x, i, list
 
 
