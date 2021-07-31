@@ -11,6 +11,7 @@ def tangenti(f,df, x0, tol_x,tol_f, max_iterations ): #x_minus_1 and x0 = valori
               x = x0 - (f(x0) / m)
               list.append(x)
               i = i + 1
+              x0 = x
         else:
             print("Derivata nulla in x0")
             break
