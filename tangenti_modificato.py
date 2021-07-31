@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 def is_valid(df, x0):
-    return abs(df(x0) > np.spacing(1))
+    return abs(df(x0)) > np.spacing(1)
 
 def find_x(x0, m, f, df):
     return x0 - m*(f(x0) / df(x0))
