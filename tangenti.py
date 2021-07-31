@@ -1,6 +1,6 @@
 import numpy as np
 
-def tangenti(f,df, x0, tol_x,tol_f, max_iterations ): #x_minus_1 and x0 = valori d'innesco
+def tangenti(f,df, x0, tol_x,tol_f, max_iterations ): 
      list = []
      i = 0
      while True:
